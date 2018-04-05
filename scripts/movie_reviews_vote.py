@@ -41,8 +41,8 @@ def featuresFind(document):
 
 featureSet = [(featuresFind(rev), category) for (rev, category) in documents]
 
-trainSet = featureSet[100:1900]
-testSet = featureSet[100:]
+trainSet = featureSet[:1400]
+testSet = featureSet[1400:]
 
 # trainSet = featureSet[100:1900]
 # testSet = featureSet[1900:]

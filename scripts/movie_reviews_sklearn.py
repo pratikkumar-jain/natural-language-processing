@@ -38,7 +38,7 @@ def featuresFind(document):
 featureSet = [(featuresFind(rev), category) for (rev, category) in documents]
 
 trainSet = featureSet[:1400]
-testSet = featureSet[1500:]
+testSet = featureSet[1400:]
 
 list_of_classifier = [MultinomialNB, LogisticRegression, SGDClassifier, SVC, LinearSVC, NuSVC]
 for classifier in list_of_classifier:
