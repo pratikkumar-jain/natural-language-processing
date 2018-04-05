@@ -47,15 +47,11 @@ for classifier in list_of_classifier:
 	print('{} Accuracy : {}'.format(classifier.__name__,nltk.classify.accuracy(classifier_name,testSet)*100))
 
 
-
-
-
-
-
-
-
-
-
-
-
+# OUTPUT:
+# MultinomialNB Accuracy : 72.4
+# LogisticRegression Accuracy : 66.4
+# SGDClassifier Accuracy : 66.4
+# SVC Accuracy : 51.2
+# LinearSVC Accuracy : 63.6
+# NuSVC Accuracy : 66.0
 
