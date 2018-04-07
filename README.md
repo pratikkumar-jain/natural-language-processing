@@ -9,3 +9,5 @@ Using NLTK for various Natural Language Processing techniques such as:
 and Explored Courpus such as:
 1. Wordnet
 2. Movie Reviews (Using Sklearn Techniques)
+
+Also performed Sentiment Analysis on Tweets using TextBlob
